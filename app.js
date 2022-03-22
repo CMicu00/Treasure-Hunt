@@ -47,7 +47,7 @@ function populateStart(){
                 T
             </div>
         </div>
-        <div class="index-infobox">
+        <div class="indexmain-infobox">
             <a href="./help.html" class="indexinfo-btn">
                 <div class="circletwo circle"></div>
                 <div class="info-btncontent">

@@ -180,6 +180,10 @@ a:hover{
 }
 .index-infobox{
     display: flex;
+    margin-top: -260px;
+}
+.indexmain-infobox{
+    display: flex;
 }
 
 
