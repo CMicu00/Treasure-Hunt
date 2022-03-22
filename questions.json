@@ -1,0 +1,143 @@
+[
+    {
+        "id": "1",
+        "text": "1- which of the following is an apple product? a) galaxy phone b) ZenBook C) Iphone d) GT2 watch ",
+        "answer": "c",
+        "type": "multiple choice",
+        "image": "./images/img (16).gif"
+    },
+    {
+        "id": "2",
+        "text": "2- There are more Pc users compared to console users",
+        "answer": "True",
+        "type": "true false",
+        "image": "./images/img (3).gif"
+    },
+    {
+        "id": "3",
+        "text": "3- what is the number 1 gaming platform?",
+        "answer": "Sony Play station 2",
+        "type": "text",
+        "image": "./images/img (11).gif"
+    },
+    {
+        "id": "4",
+        "text": "4-Which graphic card works the best for Gaming? a) RTX 1050 b)RTX 1070 c)RTX 2080 d)RTX 3060",
+        "answer": "D",
+        "type": "multiple choice",
+        "image": "./images/img (17).gif"
+    },
+    {
+        "id": "5",
+        "text": "5- League Of Legends is a console game.",
+        "answer": "false",
+        "type": "true false",
+        "image": "./images/img (18).gif"
+    },
+    {
+        "id": "6",
+        "text": "1- What is the most sold car in the world ?",
+        "answer": "Toyota",
+        "type": "text",
+        "image": "./images/img (10).gif"
+    },
+    {
+        "id": "7",
+        "text": "2- Whats the company brand of this car? a) tesla b) bmw c) benz d) toyota ",
+        "answer": "A",
+        "type": "multiple choice",
+        "image": "./images/img (1).gif"
+    },
+    {
+        "id": "8",
+        "text": "3- Asus is a car company ",
+        "answer": "false",
+        "type": "true false",
+        "image": "./images/img (19).jpeg"
+    },
+    {
+        "id": "9",
+        "text": "4- which year was the first car made?",
+        "answer": "1879",
+        "type": "text",
+        "image": "./images/img (2).gif"
+    },
+    {
+        "id": "10",
+        "text": "5- Which is the most popular vehicle color purchased by people until 2021? A) Black B) Red c) White d) silver",
+        "answer": "C",
+        "type": "multiple choice",
+        "image": "./images/img (12).gif"
+    },
+    {
+        "id": "11",
+        "text": "1- Is Milan located in Australia?",
+        "answer": "false",
+        "type": "true false",
+        "image": "./images/ img (13).gif"
+    },
+    {
+        "id": "12",
+        "text": "2-Where is the capital city of France?",
+        "answer": "Paris",
+        "type": "text",
+        "image": "./images/img (5).gif"
+    },
+    {
+        "id": "13",
+        "text": "3- Which of the following countries are not part of Europe? a) Cyprus B) japan C) spain d) Germany",
+        "answer": "B",
+        "type": "multiple choice",
+        "image": "./images/img (14).gif"
+    },
+    {
+        "id": "14",
+        "text": "4- The largest lake in the world is the caspian sea",
+        "answer": "true",
+        "type": "true false",
+        "image": "./images/img (4).gif"
+    },
+    {
+        "id": "15",
+        "text": "5- How many continents are in the world?",
+        "answer": "7",
+        "type": "text",
+        "image": "./images/img (2).jpeg"
+    },
+    {
+        "id": "16",
+        "text": "1- which application has the most users worldwide by 2022? A) Youtube B) Facebook C) Insta d) whatsapp",
+        "answer": "B",
+        "type": "multiple choice",
+        "image": "./images/img (6).gif"
+    },
+    {
+        "id": "17",
+        "text": "2- An average time spent by users on social media is over 1 hour per day",
+        "answer": "true",
+        "type": "true false",
+        "image": "./images/img (7).gif"
+    },
+    {
+        "id": "18",
+        "text": "3- what was the fastest growing social media platform in 2021?",
+        "answer": "TikTok",
+        "type": "text",
+        "image": "./images/img (9).gif"
+    },
+    {
+        "id": "19",
+        "text": "4- Which is/are the disadvantage(s) of using social media? a) reduce physical communication b) health issues if addicted c) Facilitates Laziness d) all ",
+        "answer": "D",
+        "type": "multiple choice",
+        "image": "./images/img (8).gif"
+    },
+    {
+        "id": "20",
+        "text": "5- Play station 6 is out by 2022",
+        "answer": "false",
+        "type": "true false",
+        "image": "./images/img (15).gif"
+    }
+
+]
