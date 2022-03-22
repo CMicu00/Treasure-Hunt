@@ -73,7 +73,7 @@ function populateStart(){
         </div>
         <!-- video start -->
         <video class="indexvideocontainer" width="320" height="240" controls>
-            <source src="./images/video3.MOV" type=video/mp4>
+            <source src="./images/video3.mov" type=video/mp4>
         </video>
         <!-- video end -->
         <div class="container , indexinfoContainer , indexinfo">
