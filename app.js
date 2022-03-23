@@ -202,10 +202,41 @@ function start(index){
     console.log(name.value);
 }
 
-
+function score(sessionId){
+    session = sessionId
+    if(session == ""){
+        session = sessionCookie
+    }
+    answerApi = "https://codecyprus.org/th/api/score?session=" + session
+    fetch(answerApi).then(function(response){
+        return response.json();
+    }).then(function(obj){
+        console.log(obj)
+        document.getElementById("header").innerHTML=`
+            <nav class="nav">
+                <h1 class="navtitle">
+                    ${obj.player}
+                </h1>
+                <h1 class="navtitle">
+                    Score :
+                    <span>
+                        ${obj.score}
+                    </span>
+                </h1>
+                <div class="navright">
+                    <a onclick=leaderboard() class="navabout navItem">
+                        Scoreboard
+                    </a>
+                    
+                </div>
+            </nav>`
+    })
+}
 
 
 function questions(sessionId){
+    score(sessionId)
+    
     session = sessionId
     if(session == ""){
         session = sessionCookie
