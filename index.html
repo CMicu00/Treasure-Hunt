@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
     <script src="app.js"></script>
 </head>
-<body onload="populateStart()">
+<body onload="populateStart()" >
     <header id="header">
         <nav class="nav">
             <h1 class="navtitle">
@@ -33,5 +33,15 @@
         </div>
 
     </main>
+    <div id="skip-modal" class="modal">
+        <div class="modal__content">
+            <h1>Skip question</h1>
+            <div class="modalinfo">
+                Are you sure you want to skip the current question?
+                <a onclick=skip() type="submit" class="button-one skip-btn"  href="#">Skip</a>
+            </div>
+            <a href="#" class="modal__close">&times;</a>
+        </div>
+    </div>
 </body>
 </html>

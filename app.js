@@ -5,6 +5,7 @@ var sessionId = ""
 sessionCookie = getCookie("sessionid")
 
 function populateStart(){
+    getLocation()
     document.getElementById('main').innerHTML = `
     <div class="index-firstcontainer"></div>
         <div class="indexmaintitle firstindexmain">
@@ -272,7 +273,7 @@ function questions(sessionId){
             <form action="" class="answerformText" >
                 <input type="text" required class="answerforminputtext" id="answer">
                 <a class="button-one" id="submitBtn" onclick=answerInt()>Submit</a>
-                <a class="button-one skip-btn" onclick=skip() >Skip</a>
+                <a class="button-one skip-btn" href="#skip-modal" >Skip</a>
             </form>
 
         </div>`
@@ -328,7 +329,7 @@ function questions(sessionId){
                     </div>
                 </div>
                 <a class="button-one" id="submitBtn" onclick=answerBool()>Submit</a>
-                <a class="button-one skip-btn" onclick=skip() >Skip</a>
+                <a class="button-one skip-btn" href="#skip-modal" >Skip</a>
             </form>
 
         </div>`
@@ -404,7 +405,7 @@ function questions(sessionId){
                     </div>
                 </div>
                 <a class="button-one" id="submitBtn" onclick=answerMCQ()>Submit</a>
-                <a class="button-one skip-btn" onclick=skip() >Skip</a>
+                <a class="button-one skip-btn" href="#skip-modal" >Skip</a>
             </form>
         </div>`
         }
